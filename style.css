@@ -28,6 +28,47 @@ header {
   background-size: cover;
 }
 
+.heading__container {
+  text-align: center;
+  padding: 5rem;
+}
+
+.logo {
+  margin-bottom: 3rem;
+}
+
+.heading__intro-message {
+  color: #4b5257;
+  margin-bottom: 1rem;
+}
+
+.heading__message {
+  font-size: var(--fs-body);
+  color: var(--neu-color-2);
+  max-width: 40%;
+  margin: 0 auto 2rem auto;
+  line-height: 1.5;
+}
+
 button {
-  font-family: inherit;
+  font-family: var(--font-family);
+  color: #ffff;
+  border: none;
+  padding: 0.8rem 3rem;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.btn-ios {
+  background-color: var(--prima-color-1);
+  color: #ffff;
+  border: none;
+  padding: 0.8rem 3rem;
+  border-radius: 100px;
+  box-shadow: 0 3px 0 0 rgba(27, 159, 138, 255);
+}
+
+.btn-mac {
+  background-color: var(--prima-color-2);
+  box-shadow: 0 3px 0 0 rgba(80, 100, 223, 255);
 }
