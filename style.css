@@ -31,6 +31,7 @@ header {
 .heading__container {
   text-align: center;
   padding: 5rem;
+  margin-bottom: 5rem;
 }
 
 .logo {
@@ -40,7 +41,7 @@ header {
 .heading__title-message {
   color: #4b5257;
   margin-bottom: 1rem;
-  /* font-size: 2.6rem; */
+  font-size: 2.6rem;
 }
 
 .heading__message {
@@ -73,4 +74,37 @@ button {
 .btn-mac {
   background-color: var(--prima-color-2);
   box-shadow: 0 3px 0 0 rgba(80, 100, 223, 255);
+}
+
+.second__section-container {
+  text-align: center;
+}
+
+.second__section-title {
+  color: var(--neu-color-1);
+  margin-bottom: 1rem;
+}
+
+.second__section-message {
+  font-size: var(--fs-body);
+  color: var(--neu-color-2);
+  max-width: 60ch;
+  margin: 0 auto 2rem auto;
+  line-height: 1.5;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.third__section-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5rem;
+}
+
+.third__section-container img {
+  transform: translateX(-3rem);
 }
