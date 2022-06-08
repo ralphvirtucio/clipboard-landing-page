@@ -209,3 +209,30 @@ ul li {
   max-width: 34ch;
   color: var(--neu-color-2);
 }
+
+.featured-in__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10rem 0;
+}
+
+.sixth-section__container {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.sixth-section__container h2 {
+  color: var(--neu-color-1);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.sixth-section__container p {
+  color: var(--neu-color-2);
+  max-width: 60ch;
+  margin: 0 auto 2rem auto;
+}
+
+footer {
+  background-color: #f5f6f8;
+}
