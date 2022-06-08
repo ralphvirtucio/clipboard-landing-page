@@ -26,7 +26,6 @@ body {
 header {
   background-image: url('images/bg-header-desktop.png');
   background-repeat: no-repeat;
-  background-clip: border-box;
   background-size: cover;
 }
 
@@ -80,7 +79,7 @@ button {
 
 .second__section-container {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-bottom: 7rem;
 }
 
 .second__section-title {
@@ -104,12 +103,13 @@ ul li {
 
 .third__section-container {
   display: flex;
-  justify-content: center;
   gap: 5rem;
   align-items: center;
+  margin-bottom: 10rem;
 }
 
 .third__section-container img {
+  width: 65rem;
   transform: translateX(-3rem);
 }
 
@@ -130,6 +130,31 @@ ul li {
 .third__section-features p {
   max-width: 35ch;
   line-height: 2;
+  color: var(--neu-color-2);
+}
+
+.fourth-section__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.fourth-section__container div {
+  text-align: center;
+}
+
+.fourth-section__heading {
+  color: var(--neu-color-1);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.fourth-section__message {
   font-size: var(--fs-body);
   color: var(--neu-color-2);
+  max-width: 60ch;
+  margin: 0 auto 2rem auto;
+  line-height: 1.5;
 }
