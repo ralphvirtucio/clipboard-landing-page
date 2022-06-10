@@ -18,7 +18,7 @@
   </head>
   <body>
     <main>
-      <header class="heading__container">
+      <header class="container container__header">
         <img
           class="logo"
           src="images/logo.svg"
@@ -29,13 +29,13 @@
           Clipboard allows you to track and organize everything you copy.
           Instantly access your clipboard on all your devices.
         </p>
-        <div class="btn-container">
+        <div class="container container__btn">
           <button class="btn-ios">Download for iOS</button>
           <button class="btn-mac">Download for Mac</button>
         </div>
       </header>
 
-      <section class="second__section-container">
+      <section class="container second__section">
         <h2 class="second__section-title">Keep track of your snippets</h2>
         <p class="second__section-message">
           Clipboard instantly stores any item you copy in the cloud, meaning you
@@ -44,9 +44,9 @@
         </p>
       </section>
 
-      <section class="third__section-container">
+      <section class="container third__section">
         <img src="images/image-computer.png   " alt="computer" />
-        <ul class="third__section-features">
+        <ul class="container third__section-features">
           <li>
             <h3>Quick Search</h3>
             <p>
@@ -68,28 +68,30 @@
           </li>
         </ul>
       </section>
-      <section class="fourth-section__container">
+
+     
+      <section class="container fourth__section">
         <div>
-          <h2 class="fourth-section__heading">Access Clipboard anywhere</h2>
-          <p class="fourth-section__message">
+          <h2 class="fourth__section-heading">Access Clipboard anywhere</h2>
+          <p class="fourth__section-message">
             Whether you’re on the go, or at your computer, you can access all
             your Clipboard snippets in a few simple clicks.
           </p>
         </div>
         <img src="images/image-devices.png" alt="Devices" />
       </section>
-
-      <section class="fifth-section__container">
+ 
+      <section class="container fifth__section">
         <div>
-          <h2 class="fifth-section__heading">Supercharge your workflow</h2>
-          <p class="fifth-section__message">
+          <h2 class="fifth__section-heading">Supercharge your workflow</h2>
+          <p class="fifth__section-message">
             We’ve got the tools to boost your productivity.
           </p>
         </div>
 
-        <ul class="fifth-section__features">
+        <ul class="container fifth__section-features">
           <li>
-            <img src="/images/icon-blacklist.svg" alt="Scroll Blacklist icon" />
+            <img src="images/icon-blacklist.svg" alt="Scroll Blacklist icon" />
 
               <h3>Create blacklists</h3>
               <p>
@@ -117,7 +119,7 @@
         </ul>
       </section>
 
-      <section class="featured-in__container">
+      <section class="container featured-in">
       <img src="images/logo-google.png" alt="">
       <img src="images/logo-ibm.png" alt="">
       <img src="images/logo-microsoft.png" alt="">
@@ -125,22 +127,24 @@
       <img src="images/logo-vector-graphics.png" alt="">
       </section>
 
-      <section class="sixth-section__container">
+      <section class="container sixth__section">
         <h2>Clipboard for iOS and Mac OS</h2>
         <p>
           Available for free on the App Store. Download for Mac or iOS, sync
           with iCloud and you’re ready to start adding to your clipboard.
         </p>
-        <button class="btn-ios">Download for iOS</button>
-        <button class="btn-mac">Download for Mac</button>
+        <div class="container container__btn">
+          <button class="sixth__section-btn-ios">Download for iOS</button>
+        <button class="sixth__section-btn-mac">Download for Mac</button>
+        </div>
       </section>
     </main>
 
-    <footer>
-   <div class="footer__container">
+    <footer class="container footer">
+   <div class="container footer__details">
      <img src="images/logo.svg" class="footer__logo" alt="Clipboard Logo">
     
-    <ul class="footer__nav">
+    <ul >
       <li><a href="#">FAQs</a></li>
       <li><a href="#">Privacy Policy</a></li>
       <li><a href="#">Install Guide</a></li>
@@ -149,7 +153,7 @@
     </ul>
   </div>
    
-     <div class="footer__social-media">
+     <div class="container footer__social-media">
       <a href="https://www.facebook.com/" aria-label="Click to go to Facebook">
         
         <svg class="social-media-logo" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"  fill-rule="nonzero"/></svg>
@@ -164,6 +168,6 @@
         <svg class="social-media-logo" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"  fill-rule="nonzero"/></svg>
       </a> 
      </div>
-    </footer>
+    </footer> 
   </body>
 </html>
