@@ -112,10 +112,11 @@ ul li {
   gap: 5rem;
   align-items: center;
   margin-bottom: 10rem;
+  flex-wrap: wrap;
 }
 
 .third__section-container img {
-  width: 65rem;
+  flex: 0 0 53%;
   transform: translateX(-3rem);
 }
 
@@ -188,16 +189,12 @@ ul li {
 .fifth-section__features {
   display: flex;
   gap: 2.5rem;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
 }
 
 .fifth-section__features li {
   text-align: center;
-}
-
-.fifth-section__features li:nth-child(1) {
-  margin-top: 1.5rem;
 }
 
 .fifth-section__features img {
@@ -294,4 +291,7 @@ footer {
 }
 .social-media-logo:hover {
   fill: #22b9a1;
+}
+
+@media (max-width: 52.7rem) {
 }
