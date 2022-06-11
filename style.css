@@ -300,3 +300,89 @@ button {
 .social-media-logo:hover {
   fill: #22b9a1;
 }
+
+@media (max-width: 52.7rem) {
+  header {
+    background-image: url('images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .third__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .third__section img {
+    flex: 0;
+    transform: none;
+  }
+
+  .third__section-features {
+    text-align: center;
+  }
+
+  .fifth__section-features {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .featured-in {
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+  }
+
+  .footer {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 25.7rem) {
+  header {
+    background-image: url('images/bg-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logo {
+    width: 30%;
+  }
+
+  main {
+    padding: 0 1rem;
+  }
+
+  .container__header {
+    text-align: center;
+  }
+
+  .heading__title-message {
+    font-size: 2.1rem;
+  }
+
+  .heading__message {
+    max-width: 45ch;
+  }
+
+  .container__btn {
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .second__section {
+    text-align: center;
+  }
+
+  .third__section {
+    text-align: center;
+  }
+}
