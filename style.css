@@ -366,7 +366,7 @@ button {
   }
 
   .heading__message {
-    max-width: 45ch;
+    max-width: 55ch;
   }
 
   .container__btn {
@@ -375,7 +375,7 @@ button {
   }
 
   button {
-    width: 100%;
+    width: 90%;
   }
 
   .second__section {
