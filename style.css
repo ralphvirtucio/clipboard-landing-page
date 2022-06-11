@@ -300,7 +300,7 @@ button {
 .social-media-logo:hover {
   fill: #22b9a1;
 }
-
+/* 
 @media (max-width: 52.7rem) {
   header {
     background-image: url('images/bg-header-mobile.png');
@@ -340,7 +340,7 @@ button {
   .footer {
     gap: 3rem;
   }
-}
+} */
 
 @media (max-width: 25.7rem) {
   header {
@@ -384,5 +384,65 @@ button {
 
   .third__section {
     text-align: center;
+    margin-bottom: 5rem;
+  }
+  .third__section img {
+    width: 100%;
+    transform: none;
+  }
+
+  .fourth__section {
+    text-align: center;
+  }
+
+  .fourth__section img {
+    width: 100%;
+  }
+
+  .fourth__section-message {
+    margin: 0 auto;
+    max-width: 30ch;
+  }
+
+  .fifth__section {
+    margin-bottom: 5rem;
+  }
+
+  .featured-in {
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .sixth__section {
+    text-align: center;
+  }
+  .sixth__section p {
+    max-width: 35ch;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__details img {
+    width: 50%;
+  }
+
+  .footer__details {
+    flex-direction: column;
+  }
+
+  .footer__details ul {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .footer__social-media {
+    gap: 2rem;
   }
 }
