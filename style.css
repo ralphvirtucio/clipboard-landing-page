@@ -357,6 +357,10 @@ button {
     padding: 0 1rem;
   }
 
+  header {
+    padding: 0;
+  }
+
   .container__header {
     text-align: center;
   }
